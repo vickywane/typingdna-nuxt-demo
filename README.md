@@ -5,7 +5,7 @@ Authentication can be performed with TypingDNA.
 ## Express.js backend application
 The backend application contained in the **typingdna-folder** folder was boostrapped using the [Express-generator]() package, and is built to interface with the [TypingDNA Authentication API](https://www.typingdna.com/clients) for creating Mult-factor authentication for users.
 
-## Quick Intallation steps 
+## Quick Installation steps 
 - Clone and install dependencies locally using the `yarn install` command
 - Start the application using the `yarn start` command and make HTTP requests to port `5000`
 
