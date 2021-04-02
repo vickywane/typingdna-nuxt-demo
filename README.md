@@ -2,6 +2,18 @@
 This repository contains two seperate directories, each with a demo project explaining how Multi-factor 
 Authentication can be performed with TypingDNA.
 
+## Demo Nuxt.js Web Application
+
+This SPA contained in the `nuxt-typingdna-webapp` was boostrapped using [Nuxtjs](https://nuxtjs.or). It serves as a demo application showing how Multi-factor authentication can be implemented in a web application. 
+
+## Intallation steps 
+- Clone this repository to your local machine and install the dependencies using the `yarn install` command.
+
+- Start the application using the `yarn start` command and make view in your browser at `https://localhost:3000`
+
+## Usage
+To use the web application, setup the demo backend application and have it running on port `5000` (`https://localhost:5000`), before using the account creation and authentication features.
+
 ## Express.js backend application
 The backend application contained in the **typingdna-folder** folder was boostrapped using the [Express-generator]() package, and is built to interface with the [TypingDNA Authentication API](https://www.typingdna.com/clients) for creating Mult-factor authentication for users.
 
